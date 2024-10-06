@@ -4,7 +4,6 @@
 # Add support to default build
 
 name: Continuous Integration with Gradle
-run-name: ${{ github.actor }} building project.
 on:
   push:
     branches:
@@ -46,8 +45,8 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Clean
-        run: ./gradlew clean --scan
+        run: ./gradlew clean
       - name: Run tests
-        run: ./gradlew test --scan
+        run: ./gradlew test
       - name: Build
-        run: ./gradlew build --scan
+        run: ./gradlew build
