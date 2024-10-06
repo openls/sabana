@@ -46,8 +46,8 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Clean
-        run: ./gradlew clean
+        run: ./gradlew clean --scan
       - name: Run tests
-        run: ./gradlew test
+        run: ./gradlew test --scan
       - name: Build
-        run: ./gradlew build
+        run: ./gradlew build --scan
