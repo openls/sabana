@@ -1,6 +1,6 @@
-package org.sabana.core.config;
+package org.sabana.core.configs;
 
-import org.sabana.core.entity.ApplicationVersion;
+import org.sabana.core.entities.ApplicationVersion;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

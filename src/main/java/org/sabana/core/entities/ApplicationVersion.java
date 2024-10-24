@@ -1,4 +1,4 @@
-package org.sabana.core.entity;
+package org.sabana.core.entities;
 
 import java.util.Optional;
 
